@@ -84,7 +84,7 @@ Dingurur|baek-yak|온겸|
 
 |주차|날짜|문제 1|문제 2|문제 3|
 |:----:|:------:|:---:|:---:|:---:|
-|1주차|02.05 - 02.09| [직사각형 네개의 합집합의 면적 구하기](https://www.acmicpc.net/problem/2669) |[수 이어가기](https://www.acmicpc.net/problem/2635)| TBA
+|1주차|02.05 - 02.09| [# 2669](https://www.acmicpc.net/problem/2669) |[# 2635](https://www.acmicpc.net/problem/2635)| TBA
 
 
 ## Directory 구조
