@@ -84,7 +84,7 @@ Dingurur|baek-yak|온겸|
 
 |주차|날짜|문제 1|문제 2|문제 3|
 |:----:|:------:|:---:|:---:|:---:|
-|1주차|02.05 - 02.09| [# 2669](https://www.acmicpc.net/problem/2669) |[# 2635](https://www.acmicpc.net/problem/2635)| [# 1463](https://www.acmicpc.net/problem/1463)
+|1주차|02.05 - 02.12| [# 2669](https://www.acmicpc.net/problem/2669) |[# 2635](https://www.acmicpc.net/problem/2635)| [# 1463](https://www.acmicpc.net/problem/1463)
 
 
 ## Directory 구조
