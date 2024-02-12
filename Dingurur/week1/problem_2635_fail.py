@@ -20,4 +20,3 @@ if 0< Num and Num <= 30000:
         print(*Lst)
     else :
         print(*Lst)
-
