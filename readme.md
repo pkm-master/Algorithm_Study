@@ -15,7 +15,7 @@ pkm-master|gimhaen|Psunmin|cadetbluee|
 Dingurur|baek-yak|온겸|
 
 ## 문제 선정 기준
-- 현재 단계에선 2개의  silver 5등급 문제와 1개의 silver 3등급 문제로 구성됩니다.
+- 3개의  silver 등급 문제로 구성됩니다.
 - 멤버들의 성장에 따라 문제 선정 기준은 변화할 수 있습니다.
   
 
@@ -84,7 +84,8 @@ Dingurur|baek-yak|온겸|
 
 |주차|날짜|문제 1|문제 2|문제 3|
 |:----:|:------:|:---:|:---:|:---:|
-|1주차|02.05 - 02.09| [# 2669](https://www.acmicpc.net/problem/2669) |[# 2635](https://www.acmicpc.net/problem/2635)| [# 1463](https://www.acmicpc.net/problem/1463)
+|1주차|02.06 - 02.12| [# 2669](https://www.acmicpc.net/problem/2669) |[# 2635](https://www.acmicpc.net/problem/2635)| [# 1463](https://www.acmicpc.net/problem/1463)
+|1주차|02.13 - 02.19| [# 2628](https://www.acmicpc.net/problem/2628) |[# 1244](https://www.acmicpc.net/problem/1244)| [# 2149](https://www.acmicpc.net/problem/2149)
 
 
 ## Directory 구조
