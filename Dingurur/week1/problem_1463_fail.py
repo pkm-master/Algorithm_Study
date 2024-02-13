@@ -15,6 +15,7 @@ else :
                 if N%2==0:
                     N = N//2
                     cnt +=1
+                    continue
                 else :
                     N -= 1
                     cnt +=1
@@ -31,6 +32,7 @@ else :
                 if N % 2 == 0:
                     N = N // 2
                     cnt += 1
+                    continue
                 else:
                     N -= 1
                     cnt += 1
@@ -47,6 +49,7 @@ else :
                 if N % 2 == 0:
                     N = N // 2
                     cnt += 1
+                    continue
                 else:
                     N -= 1
                     cnt += 1
