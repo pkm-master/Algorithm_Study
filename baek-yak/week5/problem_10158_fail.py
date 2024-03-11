@@ -1,17 +1,36 @@
-#17281 야구
-'''
-경기 시작전 타순 정해야함, 단 4번타자는 고정 1번선수
-한 이닝에 3아웃 이닝 종료
-9번 타자까지 공 치고  3아웃 아님 이닝 속행
-아무 이닝에서 6번이 마지막이면 다음 이닝은 7번이 스타트
+# 10158 개미
 
+w, h = map(int, input().split())
+p, q = map(int, input().split())
+t = int(input())
 
-'''
-n = int(input())
-game = [list(map(int, input().split())) for _ in range(n)]
+x = 1
+y = 1
+i = p
+j = q
 
-ans  = 0
+for _ in range(t):
 
-order = [i for i in range(1,9)]
+    if i == w:
+        x = -1
+    elif i == 0:
+        x = 1
+    
+    if x == 1:
+        i += 1
+    elif x == -1:
+        i -= 1
+        
+    if j == h:
+        y = -1
+    elif j == 0:
+        y = 1
+    
+    if y == 1:
+        j += 1
+    elif y == -1:
+        j -= 1
+    
+print(i,j)
 
-#모르겠음 3시간 붙잡고 있다 답을 봤는데도 하나도 감이 안잡히는
+#시간 초과

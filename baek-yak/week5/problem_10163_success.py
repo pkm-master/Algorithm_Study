@@ -1,48 +1,21 @@
-# 2578 빙고
-arr = [list(map(int, input().split())) for _ in range(5)]
-mc = [list(map(int, input().split())) for _ in range(5)]
+# 10163 색종이 넓이 구하기
 
-cnt = 0
+n = int(input())
 
-def c(x):
-    ans = 0
-    for i in range(5):
-        if sum(x[i]) == 0:
-            ans += 1
+arr = [[0]*1001 for _ in range(1001)]
+
+for num in range(1, 1+n):
+    x, y, w, h = map(int,input().split())
     
-    for i in range(5):
-        sub = 0
-        for j in range(5):
-            if x[j][i] == 0:
-                sub += 1
-        if sub == 5:
-            ans +=1
+    for i in range(x,x+w):
+        for j in range(y,y+h):
+            arr[i][j] = num
+
+
+for num in range(1, n+1):
+    cnt = 0
     
-    d1 = []
-    d2 = []
-    
-    for i in range(5):
-        d1.append(x[i][i])
-        d2.append(x[i][4-i])
+    for i in arr:
+        cnt += i.count(num)
         
-    if sum(d1) == 0:
-        ans += 1
-    
-    if sum(d2) == 0:
-        ans += 1
-        
-    return ans
-
-for i in range(5):
-    for j in range(5):
-        
-        for k in range(5):
-            for l in range(5):
-                if mc[i][j] == arr[k][l]:
-                    arr[k][l] = 0
-                    cnt += 1
-                
-                    if c(arr) >= 3:
-                        print(cnt)
-                        exit()
-
+    print(cnt)

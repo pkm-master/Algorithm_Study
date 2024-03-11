@@ -1,24 +1,33 @@
-# 직사각형
+# 10157 자리배정
+    
+n, m = map(int, input().split())
+k = int(input())
 
-for case in range(4):
-    x1, y1, p1, q1 , x2, y2, p2, q2 = map(int, input().split())
+if n*m < k:
+    print(0)
+
+else:
+    di = [1,0,-1,0]
+    dj = [0,1,0,-1]
     
-    if p1 < x2 or q1< y2 or x1 > p2 or y1 > q2:
-        print('d')
-        continue
+    arr = [[1]*(n+2)]+[[1]+[0]*n+[1] for _ in range(m)]+[[1]*(n+2)]
     
-    elif x1 == p2 or x2 == p1:
-        if q1 == y2 or q2 == y1:
-            print('c')
-            continue
+    ci = 1
+    cj = 1
+    dr = 0
+    
+    for i in range(1,k):
+        arr[ci][cj] = i
+        ni = ci + di[dr]
+        nj = cj + dj[dr]
+        
+        if arr[ni][nj] == 0:
+            ci = ni
+            cj = nj
+        
         else:
-            print('b')
-            continue
-    
-    elif q1 == y2 or q2 == y1:
-        print('b')
-        continue
-    
-    else:
-        print('a')
-        continue
+            dr = (dr+1)%4
+            ci = ci + di[dr]
+            cj = cj + dj[dr]
+
+    print(f'{cj} {ci}')       
