@@ -14,12 +14,6 @@ pkm-master|gimhaen|Psunmin|cadetbluee|
 [![Dingurur](https://avatars.githubusercontent.com/u/155876321)](https://github.com/BYULNA-YUJINJANG)|[![baek-yak](https://avatars.githubusercontent.com/u/156387334)](https://github.com/baek-yak)|[![Ongyeom](https://avatars.githubusercontent.com/u/156387292)](https://github.com/Ongyeom)|
 Dingurur|baek-yak|온겸|
 
-## 문제 선정 기준
-- 3개의  silver 등급 문제로 구성됩니다.
-- 멤버들의 성장에 따라 문제 선정 기준은 변화할 수 있습니다.
-  
-
-
 
 ## 참여 방법
 
@@ -89,6 +83,7 @@ Dingurur|baek-yak|온겸|
 |3주차|02.20 - 02.26| [# 2116](https://www.acmicpc.net/problem/2116) |[# 2304](https://www.acmicpc.net/problem/2304)| [# 2559](https://www.acmicpc.net/problem/2559)
 |4주차|02.27 - 03.04| [# 2578](https://www.acmicpc.net/problem/2578) |[# 2527](https://www.acmicpc.net/problem/2527)| [# 17281](https://www.acmicpc.net/problem/17281)
 |5주차|03.05 - 03.11| [# 10157](https://www.acmicpc.net/problem/10157) |[# 10158](https://www.acmicpc.net/problem/10158)| [# 10163](https://www.acmicpc.net/problem/10163)
+|6주차|03.12 - 03.18| [# 12100](https://www.acmicpc.net/problem/12100) |[# 15683](https://www.acmicpc.net/problem/15683)| [# 17471](https://www.acmicpc.net/problem/17471)
 
 ## Directory 구조
 ```MarkDown 
