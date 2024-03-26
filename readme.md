@@ -14,7 +14,6 @@ pkm-master|gimhaen|Psunmin|cadetbluee|
 [![Dingurur](https://avatars.githubusercontent.com/u/155876321)](https://github.com/BYULNA-YUJINJANG)|[![baek-yak](https://avatars.githubusercontent.com/u/156387334)](https://github.com/baek-yak)|[![Ongyeom](https://avatars.githubusercontent.com/u/156387292)](https://github.com/Ongyeom)|
 Dingurur|baek-yak|온겸|
 
-
 ## 참여 방법
 
 ### 기본 세팅
@@ -47,8 +46,6 @@ Dingurur|baek-yak|온겸|
    # mkdir pkm-master
    ```
 
-### 
-
 ### commit message 양식
    ```bash
    git commit -m "[your_ID] week[n]"
@@ -72,8 +69,6 @@ Dingurur|baek-yak|온겸|
   
 
 
-
-
 ## 문제리스트
 
 |주차|날짜|문제 1|문제 2|문제 3|
@@ -85,6 +80,7 @@ Dingurur|baek-yak|온겸|
 |5주차|03.05 - 03.11| [# 10157](https://www.acmicpc.net/problem/10157) |[# 10158](https://www.acmicpc.net/problem/10158)| [# 10163](https://www.acmicpc.net/problem/10163)
 |6주차|03.12 - 03.18| [# 12100](https://www.acmicpc.net/problem/12100) |[# 15683](https://www.acmicpc.net/problem/15683)| [# 17471](https://www.acmicpc.net/problem/17471)
 |7주차|03.19 - 03.25| [# 17779](https://www.acmicpc.net/problem/17779) |[# 16637](https://www.acmicpc.net/problem/16637)| [# 16235](https://www.acmicpc.net/problem/16235)
+|8주차|03.26 - 04.01| [# 17472](https://www.acmicpc.net/problem/17472) |[# 15685](https://www.acmicpc.net/problem/15685)| [# 14503](https://www.acmicpc.net/problem/14503)
 
 ## Directory 구조
 ```MarkDown 
