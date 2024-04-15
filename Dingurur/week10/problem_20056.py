@@ -1,3 +1,4 @@
+# 다른 사람 풀이
 n , fireball , order = map(int, input().split())
 
 graph = [[[] for _ in range(n)] for _ in range(n)]

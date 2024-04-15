@@ -1,3 +1,4 @@
+#다른 사람 풀이
 from collections import deque
 
 n, q = map(int, input().split())
