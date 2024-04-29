@@ -1,72 +1,33 @@
 import sys
-input = sys.stdin.readline
-N = int(input())
-num_str = input().strip()
-visit = [0] * (N + 1)    
-li = []
-max_num = -2**31
-if N == 1:
-    max_num = int(num_str[0])
- 
- 
-def result(arr):
-    number = int(arr[0])
- 
-    for i in range(1, len(arr) - 1, 2):
-        if arr[i] == '+':
-            number += int(arr[i + 1])
-        elif arr[i] == '-':
-            number -= int(arr[i + 1])
-        else:
-            number *= int(arr[i + 1])
- 
-    return number
+N = int(sys.stdin.readline())
+cal = list(sys.stdin.readline().strip())
+result = -1*2**31 # 최솟값
 
- 
- 
-def calculate(x):
-    global max_num
-    if len(li) > 0:
- 
-        arr = []
-        i = 0
-    
-        while i < len(num_str):
-    
-            if i in li:
-                a = arr.pop()
-                if num_str[i] == '+':
-                    num = int(a) + int(num_str[i + 1])
-                    arr.append(str(num))
-                    i += 2
-                elif num_str[i] == '*':
-                    num = int(a) * int(num_str[i + 1])
-                    arr.append(str(num))
-                    i += 2
-                elif num_str[i] == '-':
-                    num = int(a) - int(num_str[i + 1])
-                    arr.append(str(num))
-                    i += 2
-            else:
-                arr.append(num_str[i])
-                i += 1
-        r=result(arr)
-        if max_num < r:
-            max_num = r
- 
-    if x == N:
+def calculate(a, op, b):
+    if op=='+':
+        num = a + b
+    elif op=='*':
+        num = a * b
+    elif op == '-':
+        num = a - b
+    return num   
+
+def dfs(index, target):
+    global result
+
+    if index == N - 1:
+        result = max(result, target)
         return
 
-    for i in range(x, N, 2):
- 
-        if visit[i] == 1:
-            continue
-        visit[i] = visit[i + 2] = 1
-        li.append(i)
-        calculate(i + 4)
-        li.pop()
-        visit[i] = visit[i + 2] = 0
- 
- 
-calculate(1)
-print(max_num)
+    if index + 2 < N:
+        next_value = calculate(target, cal[index + 1], int(cal[index + 2])) 
+        dfs(index + 2, next_value) 
+
+    if index + 4 < N:
+
+        next_next_value = calculate(int(cal[index+2]), cal[index+3], int(cal[index+4]))
+        next_value = calculate(target, cal[index + 1], next_next_value) 
+        dfs(index + 4, next_value) 
+
+dfs(0, int(cal[0]))
+print(result)
