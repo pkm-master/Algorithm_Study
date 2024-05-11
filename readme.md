@@ -85,6 +85,7 @@ Dingurur|baek-yak|온겸|
 |10주차|04.09 - 04.15| [# 20056](https://www.acmicpc.net/problem/20056) |[# 20058](https://www.acmicpc.net/problem/20058)| [# 17144](https://www.acmicpc.net/problem/17144)
 |11주차|04.16 - 04.22| [# 17406](https://www.acmicpc.net/problem/17406) |[# 15684](https://www.acmicpc.net/problem/15684)| [# 17136](https://www.acmicpc.net/problem/17136)
 |13주차|04.30 - 05.06| [# 14889](https://www.acmicpc.net/problem/14889) |[# 16236](https://www.acmicpc.net/problem/16236)| [# 19237](https://www.acmicpc.net/problem/19237)
+|14주차|05.07 - 05.13| [# 14502](https://www.acmicpc.net/problem/14502) |[# 17141](https://www.acmicpc.net/problem/17141)| [# 17142](https://www.acmicpc.net/problem/17142)
 
 ## Directory 구조
 ```MarkDown 
